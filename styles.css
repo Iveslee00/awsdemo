@@ -944,3 +944,11 @@ img {
     justify-content: center;
   }
 }
+
+/* Keep promotion cards visually straight across uploaded/cached variants. */
+.module-promotions-asymmetric .promotions-asymmetric__featured,
+.module-promotions-asymmetric .promotions-asymmetric__featured:hover,
+.module-promotions-asymmetric .promo-card,
+.module-promotions-asymmetric .promo-card:hover {
+  transform: none !important;
+}
