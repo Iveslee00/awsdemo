@@ -349,11 +349,11 @@ img {
   padding: 4rem;
   border-radius: 30px;
   box-shadow: var(--shadow-card);
-  transition: transform var(--transition-smooth);
+  transition: box-shadow var(--transition-smooth);
 }
 
 .promotions-asymmetric__featured:hover {
-  transform: scale(1.02);
+  box-shadow: var(--shadow-hover);
 }
 
 .promo-featured__tag {
@@ -400,11 +400,11 @@ img {
   background: rgba(255, 255, 255, 0.95);
   border-radius: 20px;
   overflow: hidden;
-  transition: transform var(--transition-smooth);
+  transition: box-shadow var(--transition-smooth);
 }
 
 .promo-card:hover {
-  transform: translateX(10px);
+  box-shadow: var(--shadow-hover);
 }
 
 .promo-card__inner {
@@ -771,7 +771,6 @@ img {
 
   .promotions-asymmetric__featured {
     padding: 2rem;
-    transform: rotate(0deg);
   }
 
   .category-title {
