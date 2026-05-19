@@ -349,12 +349,11 @@ img {
   padding: 4rem;
   border-radius: 30px;
   box-shadow: var(--shadow-card);
-  transform: rotate(-2deg);
   transition: transform var(--transition-smooth);
 }
 
 .promotions-asymmetric__featured:hover {
-  transform: rotate(0deg) scale(1.02);
+  transform: scale(1.02);
 }
 
 .promo-featured__tag {
